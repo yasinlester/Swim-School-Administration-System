@@ -41,22 +41,27 @@ Open the project in NetBeans IDE.
 Build and run the project.
 
 Usage
-Upon running the program, you will be presented with a menu offering various options to manage the swim school system. Follow the on-screen prompts to navigate through different functionalities.
+After running the program, you will be presented with a menu offering various options for managing the swim school system. Follow the on-screen prompts to navigate through different functionalities.
+
 Class Structure
+
 The system is built around the following main classes:
 
-SwimSchool: Main class managing the entire system
-Student: Represents a swim student
-Instructor: Represents a swim instructor
-Lesson: Represents a swim lesson
-Qualification: Represents swim qualifications (distance and survival)
+ApplicationRunner.java: Main class to run the application
+SwimSchoolSystem.java: Core class managing the entire swim school system
+SwimStudent.java: Represents a swim student
+Instructor.java: Represents a swim instructor
+SwimLesson.java: Represents a swim lesson
+Qualification.java: Base class for qualifications
+DistanceSwim.java: Represents distance swim qualifications
+PersonalSurvival.java: Represents personal survival qualifications
+WaitingList.java: Manages the waiting list for students
 
 Important Notes
 
 The program is designed to work with Java 8 and NetBeans Ant build configuration.
 All data is volatile and exists only during program runtime.
 Pre-loaded data is read-only, while data input during runtime is modifiable.
-
 Swim School Operations
 
 Classes operate on three weekday evenings: Monday, Wednesday, and Friday, from 17:00-20:00.
