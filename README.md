@@ -40,8 +40,27 @@ Clone this repository or download the source code.
 Open the project in NetBeans IDE.
 Build and run the project.
 
-Usage
 After running the program, you will be presented with a menu offering various options for managing the swim school system. Follow the on-screen prompts to navigate through different functionalities.
+Here's an example of how the main menu will look:
+
+----------------------------------
+Swim School Administration System
+----------------------------------
+1. View swim student information
+2. View swim lesson details
+3. View instructor schedule
+4. Add new swim student
+5. Award swim qualification
+6. Move swim student from waiting list
+0. Exit
+----------------------------------
+Enter your choice:
+
+To use the system:
+
+Enter the number corresponding to the action you want to perform.
+Follow the prompts for each option to input or view information.
+Select '0' when you want to exit the program.
 
 Class Structure
 
@@ -66,12 +85,9 @@ Swim School Operations
 
 Classes operate on three weekday evenings: Monday, Wednesday, and Friday, from 17:00-20:00.
 Each session is 30 minutes long with a maximum of 4 students.
-Three levels of classes: novice, improvers, and advanced.
-Instructors can teach multiple sessions and all levels.
+There are three levels of classes: novice, improvers, and advanced.
+Instructors can teach multiple sessions at all levels.
 Students attend one session per week at their designated level.
 Waiting lists are maintained for level transfers and new students.
 
-Contributing
-This project is part of an academic assessment. While suggestions for improvements are welcome, please note that direct contributions may not be accepted due to academic integrity requirements.
-License
-This project is created for educational purposes as part of the CST2110 module. Please refer to your educational institution's policies regarding the use and distribution of academic project code.
+
